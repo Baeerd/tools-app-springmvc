@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <title>工具系统</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	  <script src="js/include/respond.min.js"></script>
+   	<![endif]-->
+
+  <link rel="stylesheet" href="js/common/common.css" />');
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+  <body>
+  	<!-- .height-wrapper -->
+	<div class="height-wrapper">
+		
+		<!-- 头部信息 -->
+		<header>
+			
+			<div id="header-toolbar" class="container-fluid">
+				<!-- .contained -->
+				<div class="contained">
+					
+					<!-- theme name -->
+					<h1> {JARVIS} <span class="hidden-phone">- Smart Admin Template</span> </h1>
+					<!-- end theme name -->
+					
+					<!-- span4 -->
+					<div class="pull-right">
+						<!-- demo theme switcher-->
+						<div id="theme-switcher" class="btn-toolbar">
+							
+							<!-- search and log off button for phone devices -->
+							<div class="btn-group pull-right visible-phone">
+								<a href="javascript:void(0)" class="btn btn-inverse btn-small"><i class="icon-search"></i></a>
+								<a href="login.html" class="btn btn-inverse btn-small"><i class="icon-off"></i></a>
+							</div>
+							<!-- end buttons for phone device -->
+							
+							<!-- 消息盒子-->
+							<div class="btn-group">
+								<!-- 消息 -->
+								<a href="javascript:void(0)" class="btn btn-small btn-inverse dropdown-toggle" data-toggle="dropdown">
+									<span class="mail-sticker">3</span>
+									<i class="cus-email"></i>
+								</a>
+								<!-- end 消息 -->
+								
+								<!-- 消息列表 -->
+								<div class="dropdown-menu toolbar pull-right">
+									<h3>Inbox</h3>
+									<ul id="mailbox-slimscroll-js" class="mailbox">
+										<li>
+											<a href="javascript:void(0)" class="unread">
+												<img src="img/email-important.png" alt="important mail" />
+												From: David Simpson
+												<i class="icon-paper-clip"></i>
+												<span>Dear Victoria, Congratulations! Your work has been uploaded to wrapbootstrap.com...</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="unread attachment">
+												
+												<img src="img/email-unread.png" alt="important mail" />
+												Re:Last Year sales
+												<i class="icon-paper-clip"></i>
+												<span>Hey Vicky, find attached! Thx :-)</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="unread">
+												<img src="img/email-unread.png" alt="important mail" />
+												Company Party
+												<i class="icon-paper-clip"></i>
+												<span>Hi, You have been cordially invited to join new year after party.</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="read">
+												<img src="img/email-read.png" alt="important mail" />
+												RE: 2 Bugs found...
+												<i class="icon-paper-clip"></i>
+												<span>I have found two more bugs in this your beta version, maybe its not working...</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="read">
+												<img src="img/email-read.png" alt="important mail" />
+												2 Bugs found...
+												<i class="icon-paper-clip"></i>
+												<span>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="read">
+												<img src="img/email-read.png" alt="important mail" />
+												Welcome to Jarvis!
+												<i class="icon-paper-clip"></i>
+												<span>Feugiat a, tellus. Phasellus viverra nulla ut metus varius. Quisque rutrum. Aenean imperdiet... </span>
+											</a>
+										</li>
+									</ul>
+									<a href="javascript:void(0);" id="go-to-inbox">Go to Inbox <i class="icon-double-angle-right"></i></a>
+								</div>
+								<!-- end 消息列表 -->
+							</div>
+							<!-- end 消息盒子-->
+							
+							<!-- 任务 -->
+							<div class="btn-group hidden-phone">
+								<a href="javascript:void(0)" class="btn btn-inverse btn-small">待处理任务</a>
+								<a href="javascript:void(0)" class="btn btn-inverse dropdown-toggle btn-small" data-toggle="dropdown"><span class="caret"></span></a>
+					
+								<div class="dropdown-menu toolbar pull-right">
+									<h3>所有待处理任务</h3>
+									<ul class="progressbox">
+						                <li>
+						                    <strong><i class="online pull-left"></i>Urgent Bug Fixes</strong><b class="pull-right">Complete</b>
+						                    <div class="progress progress-success slim"><div class="bar" style="width: 100%;"></div></div>
+						                </li>
+						                <li>
+						                    <strong>Added functionality</strong><b class="pull-right">70%</b>
+						                    <div class="progress progress-info slim"><div class="bar" style="width: 70%;"></div></div>
+						                </li>
+						                <li>
+						                    <strong>CAD Changes</strong><b class="pull-right">50%</b>
+						                    <div class="progress progress-info slim"><div class="bar" style="width: 50%;"></div></div>
+						                </li>
+						                <li>
+						                    <strong>Marketing Campaign Mocup</strong><b class="pull-right">22%</b>
+						                    <div class="progress progress-danger slim"><div class="bar" style="width: 22%;"></div></div>
+						                </li>
+						                <li>
+						                    <strong><i class="offline pull-left"></i>Proposal</strong><b class="pull-right">Pending</b>
+						                    <div class="progress progress-info slim"><div class="bar" style="width: 0%;"></div></div>
+						                </li>
+						            </ul>
+								</div>
+
+							</div>
+							<!-- end 任务 -->
+							
+							<!-- 主题 -->
+							<div class="btn-group hidden-phone">
+								<!-- 刷新 -->
+								<a href="javascript:void(0)" class="btn btn-small btn-inverse" id="reset-widget"><i class="icon-refresh"></i></a>
+
+								<a href="javascript:void(0)" class="btn btn-small btn-inverse dropdown-toggle" data-toggle="dropdown">主题 <span class="caret"></span></a>
+								<ul id="theme-links-js" class="dropdown-menu toolbar pull-right">
+									<li>
+										<a href="javascript:void(0)" data-rel="purple"><i class="icon-sign-blank purple-icon"></i>Royal Purple</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" data-rel="blue"><i class="icon-sign-blank navyblue-icon"></i>Navy Blue</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" data-rel="green"><i class="icon-sign-blank green-icon "></i>Emerald</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" data-rel="darkred"><i class="icon-sign-blank red-icon "></i>Dark Rose</a>
+									</li>
+									<li>
+										<a href="javascript:void(0)" data-rel="default"><i class="icon-sign-blank grey-icon"></i>Default</a>
+									</li>
+								</ul>
+							</div>
+							<!-- end 主题-->
+							
+						</div>
+					  	<!-- end demo theme switcher-->
+					</div>
+					<!-- end span4 -->
+				</div>
+				<!-- end .contained -->
+			</div>
+			<!-- end 头部信息 -->
+			
+		</header>
+		<!-- end 头部信息 -->
+		
+	    <div id="main" role="main" class="container-fluid">
+			<div class="contained">
+				<!-- 左侧菜单 -->	
+				<aside>	
+					
+					<!-- 搜索框 -->
+					<div class="main-search">
+						<label for="main-search"><i class="icon-search"></i></label>
+	                    <input id="main-search" type="text" placeholder="搜索..." />
+                	</div>
+					<div class="divider"></div>
+					<!-- end 搜索框 -->
+										
+					<!-- 登录用户信息 -->
+					<div class="my-profile">
+						<!-- 头像 -->
+						<a href="javascript:void(0)" class="my-profile-pic">
+							<img src="img/avatar/avatar_0.jpg" alt="" />
+						</a>
+						
+						<span class="first-child">Welcome <strong>Victoria!</strong></span>
+						<span><a href="javascript:void(0);">Edit Profile </a></span>
+					</div>
+					<div class="divider"></div>
+					<!-- end 登录用户信息 -->
+
+					<!-- aside item: 菜单 -->
+					<div class="sidebar-nav-fixed"></div>
+					<div class="divider"></div>
+					<!-- end aside item: 菜单 -->
+					
+					<!-- aside item: 左侧提示消息框 -->
+					<!-- inbox message 1-->
+					<div class="mini-inbox">
+						<div class="alert inbox">
+							<button type="button" class="close" data-dismiss="alert">
+								×
+							</button>
+							
+							<a href="javascript:void(0)">
+								<img src="img/email-important.png" width="22" height="18" alt="important mail" />
+								From:David S...
+							</a>
+							Dear Victoria, Congratulations! You work has been uploade...
+						</div>
+						<!-- inbox message 2-->
+						<div class="alert inbox">
+							<button type="button" class="close" data-dismiss="alert">
+								×
+							</button>
+							<a href="javascript:void(0)">
+								<img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+								Re:Last Year...
+							</a>
+							Hey Vicky, find attached! Thx :-)
+						</div>
+						<!-- inbox message 3-->
+						<div class="alert inbox last-child">
+							<button type="button" class="close" data-dismiss="alert">
+								×
+							</button>
+							<a href="javascript:void(0)">
+								<img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+								Company Party
+							</a>
+							Hi, You have been cordially invited to join new year...
+						</div>
+						
+					</div>
+					<div class="divider"></div>
+					<!-- end aside item: 左侧提示消息框 -->
+					
+					<!-- aside item: 左侧统计数据 -->
+					<div class="number-stats">
+				    	<ul>
+				        	<li>4579<span>visitors</span></li>
+				            <li>571<span>orders</span></li>
+				            <li>879<span>reviews</span></li>
+				        </ul>
+				    </div>
+				    <div class="divider"></div>
+					<!-- end aside item: 左侧统计数据 -->
+					
+					<!-- aside 左侧创建按钮 -->
+					<div class="aside-buttons">
+		                <a href="javascript:void(0)" title="" class="btn btn-primary">创建</a>
+		            </div>
+		            <div class="divider"></div>
+		            <!-- end 左侧创建按钮 -->
+				</aside>
+				<!-- 左侧菜单 end -->
+				<div id="page-content">
+					<!-- 面板标题 -->
+					<h1 id="page-header">文字识别</h1>
+
+					<!-- 面板提示行 -->
+					<div class="alert adjusted alert-info">
+						<button class="close" data-dismiss="alert">×</button>
+						<i class="cus-exclamation"></i>
+						<strong>Welcome to {Jarvis}Admin</strong> 基于百度图像OCR识别
+					</div>
+
+					<!-- 主要内容 -->
+					<div class="fluid-container">
+
+						<!-- widget grid -->
+						<section id="widget-grid" class="">
+
+							<!-- 文本域 -->
+							<div class="row-fluid">
+								<!-- article -->
+								<article class="span12">
+									<!-- new widget -->
+									<div class="jarviswidget" id="widget-id-6">
+										<header>
+											<h2>图片</h2>
+										</header>
+										<!-- wrap div -->
+										<div>
+
+											<div class="jarviswidget-editbox">
+												<div>
+													<label>Title:</label>
+													<input type="text" />
+												</div>
+												<div>
+													<label>Styles:</label>
+													<span data-widget-setstyle="purple" class="purple-btn"></span>
+													<span data-widget-setstyle="navyblue" class="navyblue-btn"></span>
+													<span data-widget-setstyle="green" class="green-btn"></span>
+													<span data-widget-setstyle="yellow" class="yellow-btn"></span>
+													<span data-widget-setstyle="orange" class="orange-btn"></span>
+													<span data-widget-setstyle="pink" class="pink-btn"></span>
+													<span data-widget-setstyle="red" class="red-btn"></span>
+													<span data-widget-setstyle="darkgrey" class="darkgrey-btn"></span>
+													<span data-widget-setstyle="black" class="black-btn"></span>
+												</div>
+											</div>
+
+											<div class="inner-spacer wysihtml5-widget">
+
+												<div class="btn-group">
+													<button id="wordTypeBtn" style="width: 100px;" type="button" class="btn dropdown-toggle medium" data-toggle="dropdown">通用文字识别 <span class="caret"></span></button>
+													<ul class="dropdown-menu btn-small">
+														<li><a class="wordType" href="javascript:void(0);">通用文字识别</a></li>
+														<li><a class="wordType" href="javascript:void(0);">通用文字识别（高精度版）</a></li>
+														<li><a class="wordType" href="javascript:void(0);">网络图片文字识别</a></li>
+														<li><a class="wordType" href="javascript:void(0);">银行卡识别</a></li>
+														<li><a class="wordType" href="javascript:void(0);">表格文字识别</a></li>
+													</ul>
+												</div>
+
+												<span id="wordAreaImg" style="width: 40%; height: 250px; display:inline-block; ">
+														<textarea id="wordArea1" placeholder="此处粘贴图片" style="width: 97%; height: 450px;"></textarea>
+												</span>
+												<textarea id="wordArea2" placeholder="此处显示最贴近的结果" style="font-size:16px; width: 40%; height: 450px;"></textarea>
+
+												<div class="pull-right post-msg">
+													<a href="javascript:void(0)" class="btn medium wordResetBtn" id="save-notes-btn-js">重置</a>
+												</div>
+												<!-- end content -->
+											</div>
+											<!-- end content-->
+										</div>
+										<!-- end wrap div -->
+									</div>
+									<!-- end widget -->
+								</article>
+								<!-- end article-->
+							</div>
+							<!-- end 文本域 -->
+						</section>
+						<!-- end widget grid -->
+					</div>
+					<!-- end 主要内容 -->
+				</div>
+				<!-- main 显示内容面板 -->
+
+				<!-- end 主要内容面板 -->
+			
+				<!-- 右测内容 -->
+				<aside class="right">
+					
+					<!-- 右侧提示数据 -->
+					<ul class="mystats indented">
+		                <li class="first">
+		                    <h1><span>My Balance:</span>$17,349</h1>
+		                    <div class="mychart" id="balance" style="width:35px"></div>
+		                </li>
+		                <li>
+		                    <h1><span>Impressions:</span>145k+</h1>
+		                    <div class="mychart" id="clicks" style="width:35px"></div>
+		                </li>
+		                <li>
+		                    <h1><span>Subscribers:</span>1,120</h1>
+		                    <div class="mychart" id="subscribe" style="width:35px"></div>
+		                </li>
+		                <li class="last">
+		                    <h1><span>Support Ticket:</span>945+</h1>
+		                    <div class="mychart" id="support" style="width:35px"></div>
+		                </li>
+		            </ul>
+		            <div class="divider"></div>
+		            <!-- end 右侧提示数据 -->
+
+					<!-- 右侧统计数据 -->
+					<ul class="indented aside-progress-stats">
+						<li>
+							<!-- 主要显示百分比 -->
+							<div class="easypie">
+								<div class="percentage" data-percent="68">
+									<span>68</span>%
+								</div>
+								<div class="easypie-text">
+									Server load
+								</div>
+							</div>
+							<!-- end 主要显示百分比 -->
+						</li>
+		                <li>
+		                    <strong>Data Restored</strong><strong class="pull-right">90%</strong>
+		                    <div class="progress progress-danger slim"><div class="bar" data-percentage="90"></div></div>
+		                </li>
+		                <li>
+		                    <strong>Recovering IDE</strong><strong class="pull-right">66%</strong>
+		                    <div class="progress progress-info slim"><div class="bar" data-percentage="66"></div></div>
+		                </li>
+		                <li>
+		                    <strong>DLL Construction</strong><strong class="pull-right">48%</strong>
+		                    <div class="progress progress-info slim"><div class="bar" data-percentage="48"></div></div>
+		                </li>
+		                <li>
+		                    <strong>Machine Req</strong><strong class="pull-right">33%</strong>
+		                    <div class="progress progress-info slim"><div class="bar" data-percentage="33"></div></div>
+		                </li>
+		            </ul>
+		            <div class="divider"></div>
+		            <!-- end 右侧统计数据 -->
+					
+					<!-- 分隔行 -->
+					<div id="datepicker"></div>
+					<div class="divider"></div>
+					<!-- end 分隔行 -->
+					
+					<!-- 右侧菜单按钮 -->
+					<div class="aside-buttons">
+		                <a href="javascript:void(0);" title="" class="btn btn-info">创建</a>
+		                <a href="javascript:void(0);" title="" class="btn btn-success">添加</a>
+		                <a href="javascript:void(0);" title="" class="btn btn-danger">删除</a>
+		            </div>
+		            <div class="divider"></div>
+		            <!-- end 右侧菜单按钮 -->
+				</aside>
+				
+				<!-- end aside right -->
+			</div>
+			
+	    </div><!--end fluid-container-->
+		<div class="push"></div>
+	</div>
+	<!-- end .height wrapper -->
+
+	<script src="js/jquery.min.js"></script>
+	<!-- user scripts -->
+	<script src="js/common/common.js"></script>
+
+	<script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+	<script>window.jQuery.ui || document.write('<script src="js/libs/jquery.ui.min.js"><\/script>')</script>
+	<script src="js/libs/jquery.cookie.js"></script>
+	<script src="js/include/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/include/jquery.accordion.min.js"></script>
+	<script src="js/include/toastr.min.js"></script>
+	<script src="js/include/jquery.jgrowl.min.js"></script>
+	<script src="js/include/slimScroll.min.js"></script>
+	<script src="js/include/jquery.dataTables.min.js"></script>
+	<script src="js/include/DT_bootstrap.min.js"></script>
+	<script type="text/javascript">
+        var ismobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+        if(!ismobile){
+            document.write('<script src="js/include/jquery.excanvas.min.js"><\/script>');
+            document.write('<script src="js/include/jquery.placeholder.min.js"><\/script>');
+            $(function() {
+                $.jGrowl("I am the <strong>smartest Admin Template</strong> on <strong>wrapbootstrap.com</strong>. Don't forget to check out all my pages.", {
+                    header: 'Welcome, I am Jarvis!',
+                    sticky: false,
+                    life: 5000,
+                    speed: 500,
+                    theme: 'with-icon',
+                    position: 'top-right', //this is default position
+                    easing: 'easeOutBack',
+                    animateOpen: {
+                        height: "show"
+                    },
+                    animateClose: {
+                        opacity: 'hide'
+                    }
+                });
+            });
+        }else{
+            document.write('<script src="js/include/selectnav.min.js"><\/script>');
+            document.write('<script src="js/include/responsive-tables.min.js"><\/script>');
+        }
+	</script>
+	<script src="js/include/jquery.ibutton.min.js"></script>
+	<script src="js/include/justgage.min.js"></script>
+	<script src="js/include/raphael.2.1.0.min.js"></script>
+	<script src="js/include/jquery.easy-pie-chart.min.js"></script>
+	<script src="js/include/jarvis.widget.min.js"></script>
+	<script src="js/include/mobiledevices.min.js"></script>
+	<script src="js/include/jquery.fullcalendar.min.js"></script>
+	<script src="js/include/jquery.flot.cust.min.js"></script>
+	<script src="js/include/jquery.flot.resize.min.js"></script>
+	<script src="js/include/jquery.flot.tooltip.min.js"></script>
+	<script src="js/include/jquery.flot.orderBar.min.js"></script>
+	<script src="js/include/jquery.flot.fillbetween.min.js"></script>
+	<script src="js/include/jquery.flot.pie.min.js"></script>
+	<script src="js/include/jquery.sparkline.min.js"></script>
+	<script src="js/include/jquery.validate.min.js"></script>
+	<script src="js/include/bootstrap-progressbar.min.js"></script>
+	<script src="js/include/wysihtml5-0.3.0.min.js"></script>
+	<script src="js/include/bootstrap-wysihtml5.min.js"></script>
+	<script src="js/include/jquery.maskedinput.min.js"></script>
+	<script src="js/include/bootstrap-datepicker.min.js"></script>
+	<script src="js/include/bootstrap.wizard.min.js"></script>
+	<script src="js/include/bootstrap-colorpicker.min.js"></script>
+	<script src="js/include/bootstrap-timepicker.min.js"></script>
+	<script src="js/include/bootbox.min.js"></script>
+	<script src="js/include/bootstrap.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/include/d3.v3.min.js"></script>
+	<script src="js/include/adv_charts/d3-chart-1.js"></script>
+	<script src="js/include/adv_charts/d3-chart-2.js"></script>
+	<script src="js/include/adv_charts/geochart.js"></script>
+</body>
+</html>

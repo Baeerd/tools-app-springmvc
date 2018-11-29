@@ -1,0 +1,23 @@
+{
+  "文本转换" : {
+    "文本内容格式转换" : "formatTxt.html",
+    "生成sql语句" : "generatorSql.html"
+  },
+  "图像识别" : {
+    "图像识别" : "resoveImage.html",
+    "文字识别" : "resoveWord.html"
+  },
+  "文字处理" : {
+    "通用文字识别" : "formatTxt.html",
+    "网络图片文字识别" : "formatTxt.html",
+    "手写识别" : "formatTxt.html",
+    "身份证识别" : "formatTxt.html",
+    "银行卡识别" : "formatTxt.html",
+    "驾驶证识别" : "formatTxt.html",
+    "行驶证识别" : "formatTxt.html",
+    "车牌识别" : "formatTxt.html",
+    "营业执照识别" : "formatTxt.html",
+    "护照识别" : "formatTxt.html",
+    "名片识别" : "formatTxt.html"
+  }
+}
